@@ -1,0 +1,56 @@
+{
+    "_id" : ObjectId("602f1385c4e594c1e6722d58"),
+    "manfacture" : [ 
+        {
+            "_id" : "manfacture_1",
+            "manfacture_code" : 123,
+            "manfacturer_name" : "audi",
+            "manfacturer_detail" : "From audi",
+            "Model" : [ 
+                {
+                    "model_code" : 222,
+                    "daily_hire_rate" : "200$",
+                    "model_name" : "r8",
+                    "manfacturer_id" : "manfacture_1"
+                }
+            ]
+        }
+    ],
+    "Car" : [ 
+        {
+            "license_number" : 190000000,
+            "daily_mileage_rate" : "12kmpl",
+            "engine_size" : "1800cc",
+            "other_car_details" : "n/a"
+        }
+    ],
+    "Customer" : [ 
+        {
+            "customer_id" : "_id",
+            "first_name" : "Bret",
+            "last_name" : "Grey",
+            "title" : "NA",
+            "gender" : "Male",
+            "email_address" : "bret123@gmail.com",
+            "phone_number" : "923-399-8181",
+            "address" : "123 street Texas",
+            "city" : "Houston",
+            "state" : "TX",
+            "other_customer_details" : "Genral contractor"
+        }
+    ],
+    "Booking" : [ 
+        {
+            "booking_id" : "602fdfde7aae1cf6c280dcb7",
+            "date" : "2021-02-19T19:30:00Z",
+            "payment_received_yn" : "false"
+        }
+    ],
+    "Mechanic" : [ 
+        {
+            "mechanic_id" : "mechanic1",
+            "mechanic_name" : "Matt nash",
+            "other_mehanic_details" : "electrician"
+        }
+    ]
+}
